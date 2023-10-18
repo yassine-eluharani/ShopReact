@@ -1,0 +1,38 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+
+  img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .product-details {
+    .product-title {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .product-price {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .product-rating {
+      font-style: italic;
+    }
+  }
+}

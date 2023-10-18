@@ -1,0 +1,49 @@
+.cart-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    input[type="number"] {
+      width: 50px;
+      padding: 5px;
+      font-size: 14px;
+    }
+    button {
+      background-color: #ff0000;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #cc0000;
+      }
+    }
+  }
+
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+  }
+}
+
+.total {
+  font-size: 1.2em;
+}
