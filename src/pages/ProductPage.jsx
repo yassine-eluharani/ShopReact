@@ -50,6 +50,7 @@ const ProductPage = () => {
                 ))}
               </select>
               <button
+                className="add-to-cart-button"
                 onClick={() => {
                   handleAddToCart(data);
                 }}
